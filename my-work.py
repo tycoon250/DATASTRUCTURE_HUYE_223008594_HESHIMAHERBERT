@@ -41,10 +41,10 @@ check_in_patient("Alice", {"name": "Alice", "age": 30, "condition": "flu"})
 check_in_patient("Bob", {"name": "Bob", "age": 45, "condition": "fever"})
 
 # Undo last check-in
-undo_last_checkin()  # Undo Bob's check-in
+undo_last_checkin() 
 
 # Process the next patient for checkup
-process_next_checkup()  # Process Alice
+process_next_checkup()
 
 # View patient details
 view_patient_details()
